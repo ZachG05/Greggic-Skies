@@ -19,7 +19,7 @@ import mods.gregtech.recipe.RecipeMap;
     .EUt(480)
     .buildAndRegister();
 
-// Alternative with plastic
+// Alternative with plastic (use when soldering alloy is unavailable or more expensive)
 <recipemap:circuit_assembler>.recipeBuilder()
     .inputs(<gregtech:meta_item_1:405> * 1) // MV Circuit Board
     .inputs(<gregtech:meta_item_1:420> * 2) // Central Processing Unit

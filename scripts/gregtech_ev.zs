@@ -144,8 +144,7 @@ import mods.gregtech.recipe.RecipeMap;
     .buildAndRegister();
 
 // EV Emitter
-<function_calls>
-<invoke name="assembler>.recipeBuilder()
+<recipemap:assembler>.recipeBuilder()
     .inputs(<gregtech:meta_item_1:427> * 2)
     .inputs(<gregtech:meta_rod:53> * 4) // Iridium Rod
     .inputs(<gregtech:meta_item_1:173>) // EV Sensor

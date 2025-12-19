@@ -351,7 +351,7 @@ recipes.remove(<forestry:hardened_machine>);
 <recipemap:forming_press>.recipeBuilder()
     .inputs(<gregtech:meta_plate:1071> * 8) // Steel Plate
     .inputs(<thermalfoundation:material:160> * 2) // Invar
-    .inputs(<mekanism:compressedcarbonneed> * 2)
+    .inputs(<mekanism:compressedcarbon> * 2)
     .outputs(<galacticraftcore:heavy_plating> * 2)
     .duration(600)
     .EUt(120)
