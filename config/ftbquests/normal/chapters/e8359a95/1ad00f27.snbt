@@ -1,0 +1,25 @@
+{
+	title: "MV Power Source",
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		"You'll need a reliable MV power source.",
+		"Consider the Gas Turbine or Large Steam Turbine multiblock."
+	],
+	dependencies: [
+		"221c7258"
+	],
+	tasks: [{
+		uid: "1ad00f28",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 987"
+		}]
+	}],
+	rewards: [{
+		uid: "1ad00f29",
+		type: "item",
+		item: "gregtech:meta_dust 1 1071",
+		count: 32
+	}]
+}

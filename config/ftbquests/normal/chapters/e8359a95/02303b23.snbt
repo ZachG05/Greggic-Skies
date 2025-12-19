@@ -1,0 +1,35 @@
+{
+	title: "Blood Magic Altar",
+	x: 0.0d,
+	y: 6.0d,
+	text: [
+		"Build a Blood Altar and start your journey into Blood Magic.",
+		"You'll need Life Essence for many expert recipes!"
+	],
+	dependencies: [
+		"c62b62af"
+	],
+	tasks: [{
+		uid: "02303b24",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	},
+	{
+		uid: "02303b25",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "02303b26",
+		type: "item",
+		item: "bloodmagic:slate 1 0",
+		count: 8
+	}]
+}

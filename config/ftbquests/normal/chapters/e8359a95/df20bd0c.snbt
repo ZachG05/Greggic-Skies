@@ -1,0 +1,34 @@
+{
+	title: "Thermal Signalum & Lumium",
+	x: 6.0d,
+	y: 4.0d,
+	text: [
+		"Create Signalum with EnderIO materials.",
+		"Create Lumium with Botania flowers!",
+		"These alloys are needed for advanced Thermal machines."
+	],
+	dependencies: [
+		"6012cd1d",
+		"7407191f"
+	],
+	tasks: [{
+		uid: "df20bd0d",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 133"
+		}]
+	},
+	{
+		uid: "df20bd0e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 134"
+		}]
+	}],
+	rewards: [{
+		uid: "df20bd0f",
+		type: "item",
+		item: "thermalexpansion:frame 1 0",
+		count: 8
+	}]
+}

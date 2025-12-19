@@ -1,0 +1,10 @@
+{
+	title: "Gregtech - HV",
+	icon: "gregtech:machine 1 988",
+	description: [
+		"High Voltage tier unlocks advanced processing, multiblocks, and cross-mod synergies!"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

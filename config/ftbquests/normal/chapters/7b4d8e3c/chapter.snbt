@@ -1,0 +1,11 @@
+{
+	title: "Gregtech - EV",
+	icon: "gregtech:machine 1 989",
+	description: [
+		"Extreme Voltage - The pinnacle of technology!",
+		"Master fusion, assembly lines, and ultimate cross-mod integration."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

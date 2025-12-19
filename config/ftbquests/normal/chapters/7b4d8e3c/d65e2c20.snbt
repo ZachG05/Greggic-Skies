@@ -1,0 +1,26 @@
+{
+	title: "Fusion Reactor Preparation",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Start preparing for Fusion!",
+		"Craft Fusion Coils using EV Field Generators."
+	],
+	dependencies: [
+		"46ea10d2"
+	],
+	tasks: [{
+		uid: "d65e2c21",
+		type: "item",
+		items: [{
+			item: "gregtech:fusion_casing 1 0"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d65e2c22",
+		type: "item",
+		item: "gregtech:meta_item_1 1 194",
+		count: 2
+	}]
+}

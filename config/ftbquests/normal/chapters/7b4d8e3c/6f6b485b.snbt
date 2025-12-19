@@ -1,0 +1,25 @@
+{
+	title: "Awakened Core",
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		"Craft the Awakened Draconic Core!",
+		"Uses materials from ALL mods in the pack."
+	],
+	dependencies: [
+		"2364ff9c"
+	],
+	tasks: [{
+		uid: "6f6b485c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	}],
+	rewards: [{
+		uid: "6f6b485d",
+		type: "item",
+		item: "draconicevolution:draconic_energy_core",
+		count: 1
+	}]
+}

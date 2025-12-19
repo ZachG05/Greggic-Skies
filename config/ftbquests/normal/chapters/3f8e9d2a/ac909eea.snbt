@@ -1,0 +1,39 @@
+{
+	title: "HV Robot Arm & Automation",
+	x: -4.0d,
+	y: 4.0d,
+	text: [
+		"Craft HV-tier automation components!",
+		"Robot Arms, Conveyors, and Electric Pistons."
+	],
+	dependencies: [
+		"7f66c377"
+	],
+	tasks: [{
+		uid: "ac909eeb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 132"
+		}]
+	},
+	{
+		uid: "ac909eec",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 122"
+		}]
+	},
+	{
+		uid: "ac909eed",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 142"
+		}]
+	}],
+	rewards: [{
+		uid: "ac909eee",
+		type: "item",
+		item: "gregtech:meta_item_1 1 152",
+		count: 4
+	}]
+}

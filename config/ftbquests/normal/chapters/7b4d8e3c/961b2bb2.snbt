@@ -1,0 +1,26 @@
+{
+	title: "Workstation Circuit",
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		"Craft Workstation circuits!",
+		"These require cleanroom-level precision."
+	],
+	dependencies: [
+		"04d309b8"
+	],
+	tasks: [{
+		uid: "961b2bb3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 427"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "961b2bb4",
+		type: "item",
+		item: "gregtech:meta_wire_fine 1 111",
+		count: 64
+	}]
+}

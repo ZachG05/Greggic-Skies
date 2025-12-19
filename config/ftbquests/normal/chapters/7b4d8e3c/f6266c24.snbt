@@ -1,0 +1,25 @@
+{
+	title: "Data Orb",
+	x: -4.0d,
+	y: 4.0d,
+	text: [
+		"Craft a Data Orb for ultimate recipe storage!",
+		"Requires 64k AE2 storage components."
+	],
+	dependencies: [
+		"961b2bb2"
+	],
+	tasks: [{
+		uid: "f6266c25",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 129"
+		}]
+	}],
+	rewards: [{
+		uid: "f6266c26",
+		type: "item",
+		item: "gregtech:meta_item_1 1 128",
+		count: 4
+	}]
+}

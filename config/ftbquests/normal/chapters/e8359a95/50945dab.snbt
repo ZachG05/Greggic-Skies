@@ -1,0 +1,39 @@
+{
+	title: "MV Motor Components",
+	x: -2.0d,
+	y: 4.0d,
+	text: [
+		"Craft MV electric motors and pistons.",
+		"These are essential components for machines and automation!"
+	],
+	dependencies: [
+		"221c7258"
+	],
+	tasks: [{
+		uid: "50945dac",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 102"
+		}]
+	},
+	{
+		uid: "50945dad",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 112"
+		}]
+	},
+	{
+		uid: "50945dae",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 92"
+		}]
+	}],
+	rewards: [{
+		uid: "50945daf",
+		type: "item",
+		item: "gregtech:meta_cable 1 330",
+		count: 32
+	}]
+}

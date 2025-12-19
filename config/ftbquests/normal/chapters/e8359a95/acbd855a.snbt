@@ -1,0 +1,25 @@
+{
+	title: "PneumaticCraft Advanced PCB",
+	x: 0.0d,
+	y: 8.0d,
+	text: [
+		"Create Advanced PCBs using AE2 processors.",
+		"These are needed for complex automation!"
+	],
+	dependencies: [
+		"c69c27fa"
+	],
+	tasks: [{
+		uid: "acbd855b",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:advanced_pcb"
+		}]
+	}],
+	rewards: [{
+		uid: "acbd855c",
+		type: "item",
+		item: "pneumaticcraft:plastic 1 0",
+		count: 32
+	}]
+}

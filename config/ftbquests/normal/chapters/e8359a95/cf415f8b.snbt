@@ -1,0 +1,33 @@
+{
+	title: "MV Circuit Assembly",
+	x: -4.0d,
+	y: 4.0d,
+	text: [
+		"Build a Circuit Assembler to automate advanced circuits.",
+		"These circuits are needed for HV progression!"
+	],
+	dependencies: [
+		"47112cc2"
+	],
+	tasks: [{
+		uid: "cf415f8c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 95"
+		}]
+	},
+	{
+		uid: "cf415f8d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 401"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "cf415f8e",
+		type: "item",
+		item: "gregtech:meta_wire_fine 1 25",
+		count: 64
+	}]
+}

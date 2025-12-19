@@ -1,0 +1,42 @@
+{
+	title: "Extreme Reactors Setup",
+	x: -6.0d,
+	y: 4.0d,
+	text: [
+		"Build a basic reactor with AE2 and Botania runes!",
+		"This provides excellent power generation."
+	],
+	dependencies: [
+		"221c7258",
+		"c69c27fa"
+	],
+	tasks: [{
+		uid: "aa735a29",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcasing"
+		}],
+		count: 32L
+	},
+	{
+		uid: "aa735a2a",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontroller"
+		}]
+	},
+	{
+		uid: "aa735a2b",
+		type: "item",
+		items: [{
+			item: "bigreactors:reactorcontrolrod"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "aa735a2c",
+		type: "item",
+		item: "bigreactors:ingotyellorium",
+		count: 64
+	}]
+}

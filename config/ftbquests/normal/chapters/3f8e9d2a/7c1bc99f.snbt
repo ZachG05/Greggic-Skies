@@ -1,0 +1,26 @@
+{
+	title: "Blood Magic Ethereal Slate",
+	x: -2.0d,
+	y: 4.0d,
+	text: [
+		"Use the Assembly Line to create Ethereal Slate!",
+		"Requires Tungsten, Gaia Ingots, Void Metal, and End Steel."
+	],
+	dependencies: [
+		"b8c7c884"
+	],
+	tasks: [{
+		uid: "7c1bc9a0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 3"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7c1bc9a1",
+		type: "item",
+		item: "bloodmagic:slate 1 2",
+		count: 8
+	}]
+}

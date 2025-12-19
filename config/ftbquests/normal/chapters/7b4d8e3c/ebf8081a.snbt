@@ -1,0 +1,25 @@
+{
+	title: "Cleanroom",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"Build a Cleanroom for advanced circuit production!",
+		"Essential for high-tier recipes."
+	],
+	dependencies: [
+		"04d309b8"
+	],
+	tasks: [{
+		uid: "ebf8081b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1015"
+		}]
+	}],
+	rewards: [{
+		uid: "ebf8081c",
+		type: "item",
+		item: "gregtech:meta_plate 1 1095",
+		count: 64
+	}]
+}

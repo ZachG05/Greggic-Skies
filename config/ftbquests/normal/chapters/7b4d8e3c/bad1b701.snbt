@@ -1,0 +1,26 @@
+{
+	title: "Ludicrite Reactor Upgrade",
+	x: -4.0d,
+	y: 2.0d,
+	text: [
+		"Upgrade your Extreme Reactor to Ludicrite!",
+		"Smelt in EBF at 9000K using Crystal Matrix."
+	],
+	dependencies: [
+		"04d309b8"
+	],
+	tasks: [{
+		uid: "bad1b702",
+		type: "item",
+		items: [{
+			item: "bigreactors:ingotludicrite"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "bad1b703",
+		type: "item",
+		item: "bigreactors:ingotblutonium",
+		count: 32
+	}]
+}

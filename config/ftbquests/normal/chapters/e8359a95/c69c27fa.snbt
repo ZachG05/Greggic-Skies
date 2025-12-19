@@ -1,0 +1,33 @@
+{
+	title: "Applied Energistics 2 Basics",
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"Start your ME system!",
+		"Craft an ME Controller and some drives.",
+		"This requires cross-mod materials from EnderIO and Botania."
+	],
+	dependencies: [
+		"221c7258"
+	],
+	tasks: [{
+		uid: "c69c27fb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	},
+	{
+		uid: "c69c27fc",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	}],
+	rewards: [{
+		uid: "c69c27fd",
+		type: "item",
+		item: "appliedenergistics2:material 1 35",
+		count: 2
+	}]
+}

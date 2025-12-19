@@ -1,0 +1,26 @@
+{
+	title: "Awakened Draconium",
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"Use Fusion to create Awakened Draconium!",
+		"This requires mastering fusion reactor technology."
+	],
+	dependencies: [
+		"d65e2c20"
+	],
+	tasks: [{
+		uid: "2364ff9d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ingot 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "2364ff9e",
+		type: "item",
+		item: "draconicevolution:draconium_ingot 1 0",
+		count: 32
+	}]
+}

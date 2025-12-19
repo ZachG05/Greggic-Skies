@@ -1,0 +1,26 @@
+{
+	title: "Tungstensteel Production",
+	x: 0.0d,
+	y: 6.0d,
+	text: [
+		"Smelt Tungstensteel in the EBF at 3600K!",
+		"This alloy is critical for EV tier."
+	],
+	dependencies: [
+		"69854b2b"
+	],
+	tasks: [{
+		uid: "e457f39f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1082"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e457f3a0",
+		type: "item",
+		item: "gregtech:meta_dust 1 109",
+		count: 32
+	}]
+}

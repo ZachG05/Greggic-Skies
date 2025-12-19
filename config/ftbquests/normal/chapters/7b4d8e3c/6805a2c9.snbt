@@ -1,0 +1,26 @@
+{
+	title: "Quantum Entangled Singularity",
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		"Create Quantum Entangled Singularities using Fusion!",
+		"Enables quantum networking with AE2."
+	],
+	dependencies: [
+		"d65e2c20"
+	],
+	tasks: [{
+		uid: "6805a2ca",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 9"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "6805a2cb",
+		type: "item",
+		item: "appliedenergistics2:material 1 48",
+		count: 2
+	}]
+}

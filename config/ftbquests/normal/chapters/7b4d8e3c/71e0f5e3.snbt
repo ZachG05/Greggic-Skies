@@ -1,0 +1,27 @@
+{
+	title: "Stellar Alloy",
+	x: -2.0d,
+	y: 4.0d,
+	text: [
+		"Fuse End Steel and Awakened Draconium to create Stellar Alloy!",
+		"The ultimate EnderIO material."
+	],
+	dependencies: [
+		"d65e2c20",
+		"2364ff9c"
+	],
+	tasks: [{
+		uid: "71e0f5e4",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot 1 3"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "71e0f5e5",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 16
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Gaia Ingot Production",
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		"Process Gaia Spirits with Terrasteel and Tungsten!",
+		"Use the EBF at 3600K."
+	],
+	dependencies: [
+		"69854b2b"
+	],
+	tasks: [{
+		uid: "0770e566",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 8"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "0770e567",
+		type: "item",
+		item: "botania:manaresource 1 5",
+		count: 4
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Ultimate Sieve Mesh",
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		"Create the ultimate sieve mesh!",
+		"Uses Iridium Wire, Crystal Matrix, and Gaia Ingots."
+	],
+	dependencies: [
+		"46ea10d2"
+	],
+	tasks: [{
+		uid: "0bebf38e",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 4"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "0bebf38f",
+		type: "item",
+		item: "gregtech:meta_wire_fine 1 111",
+		count: 128
+	}]
+}

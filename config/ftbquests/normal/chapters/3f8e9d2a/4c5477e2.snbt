@@ -1,0 +1,26 @@
+{
+	title: "EnderIO End Steel",
+	x: 4.0d,
+	y: 6.0d,
+	text: [
+		"Smelt End Steel in the EBF at 2400K!",
+		"Requires Dark Steel, End Stone, and Osmium."
+	],
+	dependencies: [
+		"69854b2b"
+	],
+	tasks: [{
+		uid: "4c5477e3",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "4c5477e4",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 16
+	}]
+}

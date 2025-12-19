@@ -1,0 +1,32 @@
+{
+	title: "Welcome to HV!",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Craft your first HV Machine Hull!",
+		"This marks the beginning of true automation and multiblock processing."
+	],
+	dependencies: [
+		"221c7258"
+	],
+	tasks: [{
+		uid: "e744f8b5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 988"
+		}]
+	},
+	{
+		uid: "e744f8b6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "e744f8b7",
+		type: "item",
+		item: "gregtech:meta_plate 1 109",
+		count: 32
+	}]
+}

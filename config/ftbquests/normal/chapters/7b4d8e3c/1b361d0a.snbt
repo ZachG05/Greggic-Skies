@@ -1,0 +1,26 @@
+{
+	title: "Nether Star Automation",
+	x: 0.0d,
+	y: 6.0d,
+	text: [
+		"Automate Nether Star production!",
+		"Use Gaia Spirits and Ethereal Slate in the Chemical Reactor."
+	],
+	dependencies: [
+		"46ea10d2"
+	],
+	tasks: [{
+		uid: "1b361d0b",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1b361d0c",
+		type: "item",
+		item: "minecraft:skull 1 1",
+		count: 8
+	}]
+}

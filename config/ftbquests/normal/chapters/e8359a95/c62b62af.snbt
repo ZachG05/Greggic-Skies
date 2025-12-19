@@ -1,0 +1,32 @@
+{
+	title: "Cross-Mod Alloys",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Create Manasteel from Botania by infusing steel with mana.",
+		"This will unlock many cross-mod recipes!"
+	],
+	dependencies: [
+		"221c7258"
+	],
+	tasks: [{
+		uid: "c62b62b0",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 0"
+		}]
+	},
+	{
+		uid: "c62b62b1",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 0"
+		}]
+	}],
+	rewards: [{
+		uid: "c62b62b2",
+		type: "item",
+		item: "botania:manaresource 1 23",
+		count: 8
+	}]
+}

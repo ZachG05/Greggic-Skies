@@ -1,0 +1,40 @@
+{
+	title: "Botania Mana Generation",
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		"Set up a proper mana generation system.",
+		"You'll need mana for many cross-mod recipes!"
+	],
+	dependencies: [
+		"c62b62af"
+	],
+	tasks: [{
+		uid: "74071920",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 0"
+		}]
+	},
+	{
+		uid: "74071921",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 0"
+		}],
+		count: 4L
+	},
+	{
+		uid: "74071922",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "74071923",
+		type: "item",
+		item: "botania:petal",
+		count: 64
+	}]
+}

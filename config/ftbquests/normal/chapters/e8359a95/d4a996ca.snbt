@@ -1,0 +1,33 @@
+{
+	title: "Thaumcraft Research",
+	x: -2.0d,
+	y: 6.0d,
+	text: [
+		"Start researching Thaumcraft!",
+		"Craft Thaumium for advanced alloys."
+	],
+	dependencies: [
+		"c62b62af"
+	],
+	tasks: [{
+		uid: "d4a996cb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}]
+	},
+	{
+		uid: "d4a996cc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 0"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d4a996cd",
+		type: "item",
+		item: "thaumcraft:salis_mundus",
+		count: 4
+	}]
+}

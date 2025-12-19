@@ -1,0 +1,27 @@
+{
+	title: "Alfheim Portal",
+	x: 2.0d,
+	y: 6.0d,
+	text: [
+		"Build the Alfheim Portal using HV Field Generators!",
+		"Access Elven Trade recipes."
+	],
+	dependencies: [
+		"0770e565",
+		"7f66c377"
+	],
+	tasks: [{
+		uid: "2c129d60",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "2c129d61",
+		type: "item",
+		item: "botania:manaresource 1 7",
+		count: 8
+	}]
+}

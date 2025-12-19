@@ -1,0 +1,27 @@
+{
+	title: "EnderIO Dark Steel",
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"Craft Dark Steel using Blood Magic!",
+		"This unlocks many EnderIO machines."
+	],
+	dependencies: [
+		"c69c27fa",
+		"02303b23"
+	],
+	tasks: [{
+		uid: "6012cd1e",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 6"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "6012cd1f",
+		type: "item",
+		item: "enderio:item_material 1 14",
+		count: 2
+	}]
+}

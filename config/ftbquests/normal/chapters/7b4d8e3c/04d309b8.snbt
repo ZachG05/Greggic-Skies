@@ -1,0 +1,32 @@
+{
+	title: "Welcome to EV!",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Craft your first EV Machine Hull!",
+		"You're entering the realm of fusion and assembly lines."
+	],
+	dependencies: [
+		"e744f8b4"
+	],
+	tasks: [{
+		uid: "04d309b9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 989"
+		}]
+	},
+	{
+		uid: "04d309ba",
+		type: "item",
+		items: [{
+			item: "gregtech:machine_casing 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "04d309bb",
+		type: "item",
+		item: "gregtech:meta_plate 1 111",
+		count: 32
+	}]
+}

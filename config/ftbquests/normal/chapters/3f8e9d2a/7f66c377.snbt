@@ -1,0 +1,25 @@
+{
+	title: "HV Field Generator",
+	x: -4.0d,
+	y: 2.0d,
+	text: [
+		"Craft the HV Field Generator!",
+		"Required for many advanced multiblocks."
+	],
+	dependencies: [
+		"b8c7c884"
+	],
+	tasks: [{
+		uid: "7f66c378",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 193"
+		}]
+	}],
+	rewards: [{
+		uid: "7f66c379",
+		type: "item",
+		item: "gregtech:meta_plate 1 324",
+		count: 8
+	}]
+}

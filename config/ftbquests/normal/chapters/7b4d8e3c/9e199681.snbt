@@ -1,0 +1,31 @@
+{
+	title: "Creative Tank & Storage",
+	x: 0.0d,
+	y: 8.0d,
+	text: [
+		"As a reward for reaching EV, craft creative storage items!",
+		"You've mastered the expert modpack."
+	],
+	dependencies: [
+		"64e2348e",
+		"0bebf38d",
+		"1b361d0a"
+	],
+	tasks: [{
+		uid: "9e199682",
+		type: "checkmark",
+		title: "Congratulations!"
+	}],
+	rewards: [{
+		uid: "9e199683",
+		type: "item",
+		item: "storagedrawers:upgrade_creative 1 0",
+		count: 1
+	},
+	{
+		uid: "9e199684",
+		type: "item",
+		item: "gregtech:machine 1 1650",
+		count: 1
+	}]
+}

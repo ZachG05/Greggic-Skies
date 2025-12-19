@@ -1,0 +1,25 @@
+{
+	title: "Wyvern Core",
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		"Upgrade to Wyvern Cores using Pixie Dust and Demon Shards!",
+		"True cross-mod mastery!"
+	],
+	dependencies: [
+		"9894b3bf"
+	],
+	tasks: [{
+		uid: "38e5df20",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}]
+	}],
+	rewards: [{
+		uid: "38e5df21",
+		type: "item",
+		item: "draconicevolution:wyvern_energy_core",
+		count: 1
+	}]
+}

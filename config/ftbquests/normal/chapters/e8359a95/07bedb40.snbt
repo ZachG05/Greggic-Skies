@@ -1,0 +1,32 @@
+{
+	title: "MV Ore Processing",
+	x: -6.0d,
+	y: 2.0d,
+	text: [
+		"Upgrade your ore processing with MV machines.",
+		"Build an Ore Washing Plant and Thermal Centrifuge!"
+	],
+	dependencies: [
+		"221c7258"
+	],
+	tasks: [{
+		uid: "07bedb41",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 410"
+		}]
+	},
+	{
+		uid: "07bedb42",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 530"
+		}]
+	}],
+	rewards: [{
+		uid: "07bedb43",
+		type: "item",
+		item: "gregtech:meta_ore_crushed 1 1033",
+		count: 32
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Assembly Line",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Build the Assembly Line multiblock!",
+		"The ultimate crafting machine for complex recipes."
+	],
+	dependencies: [
+		"04d309b8"
+	],
+	tasks: [{
+		uid: "46ea10d3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1012"
+		}]
+	}],
+	rewards: [{
+		uid: "46ea10d4",
+		type: "item",
+		item: "gregtech:meta_item_1 1 427",
+		count: 16
+	}]
+}

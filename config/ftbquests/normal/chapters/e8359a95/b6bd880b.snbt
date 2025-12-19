@@ -1,0 +1,34 @@
+{
+	title: "Mystical Agriculture Progress",
+	x: -2.0d,
+	y: 8.0d,
+	text: [
+		"Progress to Prudentium essence using Botania mana.",
+		"Start automating resource generation!"
+	],
+	dependencies: [
+		"7407191f",
+		"02303b23"
+	],
+	tasks: [{
+		uid: "b6bd880c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "b6bd880d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "b6bd880e",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 5",
+		count: 4
+	}]
+}

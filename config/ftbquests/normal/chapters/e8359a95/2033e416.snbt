@@ -1,0 +1,32 @@
+{
+	title: "Forestry Automation",
+	x: -4.0d,
+	y: 6.0d,
+	text: [
+		"Build a Carpenter using Thermal gears!",
+		"Start automating wood and resource processing."
+	],
+	dependencies: [
+		"221c7258"
+	],
+	tasks: [{
+		uid: "2033e417",
+		type: "item",
+		items: [{
+			item: "forestry:carpenter"
+		}]
+	},
+	{
+		uid: "2033e418",
+		type: "item",
+		items: [{
+			item: "forestry:hardened_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "2033e419",
+		type: "item",
+		item: "forestry:thermionic_tubes 1 0",
+		count: 16
+	}]
+}

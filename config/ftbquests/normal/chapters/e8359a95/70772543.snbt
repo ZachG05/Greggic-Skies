@@ -1,0 +1,25 @@
+{
+	title: "MV Chemical Reactor",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		"The Chemical Reactor is essential for making advanced materials.",
+		"Start producing plastics and polymers!"
+	],
+	dependencies: [
+		"221c7258"
+	],
+	tasks: [{
+		uid: "70772544",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 305"
+		}]
+	}],
+	rewards: [{
+		uid: "70772545",
+		type: "item",
+		item: "gregtech:meta_dust 1 2"},
+		count: 16
+	}]
+}

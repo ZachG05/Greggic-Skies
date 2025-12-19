@@ -1,0 +1,26 @@
+{
+	title: "Void Metal Processing",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Smelt Void Metal in the EBF at 4000K!",
+		"Requires Thaumium, Ender Pearls, and Demonic Slate."
+	],
+	dependencies: [
+		"e744f8b4"
+	],
+	tasks: [{
+		uid: "945218bc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "945218bd",
+		type: "item",
+		item: "thaumcraft:ingot 1 0",
+		count: 16
+	}]
+}

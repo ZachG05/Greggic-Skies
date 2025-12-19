@@ -1,0 +1,25 @@
+{
+	title: "Draconic Evolution Start",
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"Craft your first Draconic Core!",
+		"This requires Botania Gaia Spirits, Blood Magic Ethereal Slate, and Thaumcraft Void Metal!"
+	],
+	dependencies: [
+		"e744f8b4"
+	],
+	tasks: [{
+		uid: "9894b3c0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "9894b3c1",
+		type: "item",
+		item: "draconicevolution:draconium_dust",
+		count: 16
+	}]
+}

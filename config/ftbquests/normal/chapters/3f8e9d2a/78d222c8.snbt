@@ -1,0 +1,25 @@
+{
+	title: "Avaritia Crystal Matrix",
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"Craft Crystal Matrix using materials from ALL magic mods!",
+		"Diamond + Mana Diamond + Demon Crystal + Thaumcraft Essence + Charged Certus"
+	],
+	dependencies: [
+		"e744f8b4"
+	],
+	tasks: [{
+		uid: "78d222c9",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "78d222ca",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 16
+	}]
+}

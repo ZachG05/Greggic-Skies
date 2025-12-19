@@ -1,0 +1,26 @@
+{
+	title: "Ultimate Power Generation",
+	x: 4.0d,
+	y: 6.0d,
+	text: [
+		"Build a Draconic Reactor or maximize your Ludicrite reactor!",
+		"You've mastered power generation."
+	],
+	dependencies: [
+		"6f6b485b",
+		"bad1b701"
+	],
+	tasks: [{
+		uid: "64e2348f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:reactor_core"
+		}]
+	}],
+	rewards: [{
+		uid: "64e23490",
+		type: "item",
+		item: "draconicevolution:chaos_shard",
+		count: 4
+	}]
+}

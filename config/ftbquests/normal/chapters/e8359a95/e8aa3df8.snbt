@@ -1,0 +1,25 @@
+{
+	title: "Terrasteel Production",
+	x: 2.0d,
+	y: 8.0d,
+	text: [
+		"Infuse Terrasteel using GregTech steel!",
+		"This is a key material for HV progression."
+	],
+	dependencies: [
+		"7407191f"
+	],
+	tasks: [{
+		uid: "e8aa3df9",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "e8aa3dfa",
+		type: "item",
+		item: "botania:manaresource 1 2",
+		count: 4
+	}]
+}

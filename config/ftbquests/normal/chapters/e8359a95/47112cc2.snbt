@@ -1,0 +1,25 @@
+{
+	title: "MV Assembler",
+	x: -4.0d,
+	y: 2.0d,
+	text: [
+		"The Assembler automates many complex recipes.",
+		"Essential for circuit production!"
+	],
+	dependencies: [
+		"221c7258"
+	],
+	tasks: [{
+		uid: "47112cc3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 65"
+		}]
+	}],
+	rewards: [{
+		uid: "47112cc4",
+		type: "item",
+		item: "gregtech:meta_item_1 1 401",
+		count: 8
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Infinity Catalyst",
+	x: 6.0d,
+	y: 2.0d,
+	text: [
+		"Create the Infinity Catalyst using the Assembly Line!",
+		"The gateway to Avaritia's ultimate items."
+	],
+	dependencies: [
+		"46ea10d2"
+	],
+	tasks: [{
+		uid: "c8d91326",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "c8d91327",
+		type: "item",
+		item: "avaritia:resource 1 1",
+		count: 8
+	}]
+}
