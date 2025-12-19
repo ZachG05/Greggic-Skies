@@ -1,0 +1,43 @@
+{
+	title: "EV Ultimate Materials",
+	icon: "avaritia:resource 1 1",
+	loot_size: 1,
+	rewards: [{
+		weight: 1.0f,
+		item: {
+			id: "avaritia:resource",
+			Count: 2,
+			Damage: 1
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "draconicevolution:awakened_core",
+			Count: 1
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "gregtech:meta_ingot",
+			Count: 8,
+			Damage: 1082
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "appliedenergistics2:material",
+			Count: 1,
+			Damage: 48
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "minecraft:nether_star",
+			Count: 2
+		}
+	}]
+}

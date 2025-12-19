@@ -1,0 +1,44 @@
+{
+	title: "MV Materials Pack",
+	icon: "gregtech:meta_ingot 1 1071",
+	loot_size: 1,
+	rewards: [{
+		weight: 1.0f,
+		item: {
+			id: "gregtech:meta_dust",
+			Count: 32,
+			Damage: 1071
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "gregtech:meta_plate",
+			Count: 16,
+			Damage: 330
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "botania:manaresource",
+			Count: 8,
+			Damage: 0
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "enderio:item_alloy_ingot",
+			Count: 8,
+			Damage: 0
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "mekanism:enrichedalloy",
+			Count: 8
+		}
+	}]
+}

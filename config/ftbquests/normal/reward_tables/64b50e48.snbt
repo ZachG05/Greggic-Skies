@@ -1,0 +1,45 @@
+{
+	title: "Circuits & Components",
+	icon: "gregtech:meta_item_1 1 426",
+	loot_size: 1,
+	rewards: [{
+		weight: 1.0f,
+		item: {
+			id: "gregtech:meta_item_1",
+			Count: 4,
+			Damage: 401
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "gregtech:meta_item_1",
+			Count: 2,
+			Damage: 426
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "appliedenergistics2:material",
+			Count: 4,
+			Damage: 23
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "mekanism:controlcircuit",
+			Count: 4,
+			Damage: 1
+		}
+	},
+	{
+		weight: 1.0f,
+		item: {
+			id: "gregtech:meta_wire_fine",
+			Count: 64,
+			Damage: 25
+		}
+	}]
+}
