@@ -1,0 +1,74 @@
+name: New Mod Request
+description: Request a New Mod.
+labels:
+- "Status: Triage"
+- "Type: New Mod"
+- "Enhancement"
+body:
+- type: input
+  id: discord
+  attributes:
+    label: Your Discord Username
+    description: Leave empty if you don't have one, but this will make it harder to contact you if we need additional info.
+    placeholder: "Example: Fake"
+- type: input
+  id: version
+  attributes:
+    label: Your Pack Version
+    description: What version of the pack are you playing?
+    placeholder: "Alpha V1"
+  validations:
+    required: true
+- type: input
+  id: proposal
+  attributes:
+    label: Mod Name
+    description: What mod do you propose to add?
+    placeholder: "Example: Tinkers Construct"
+  validations:
+    required: true
+- type: textarea
+  id: features
+  attributes:
+    label: Mod Features
+    description: What is the main feature of this mod?
+    placeholder: "Example: Custom tools with custom resources!"
+  validations:
+    required: true
+- type: textarea
+  id: reason
+  attributes:
+    label: Reasoning
+    description: Why is this mod needed?
+    placeholder: "Example: Add different mining tiers for twilight forest or other dimensions."
+  validations:
+    required: true
+- type: textarea
+  id: test
+  attributes:
+    label: Preliminary Investigation
+    description: Have you tried adding this mod to the pack? What happened? What do you think need tweaking?
+    placeholder: >
+      Example: 
+      Need to add custom recipies to tool forge to enhance gating and progression
+  validations:
+    required: true
+- type: checkboxes
+  id: final
+  attributes:
+    label: Final Checklist
+    description: Please mark them so we know you are serious with your suggestion
+    options:
+      - label: "This mod is released under an open source license. Yes, this is required now."
+        required: true
+      - label: "I have searched this issue tracker and there is nothing similar already. Posting on a closed issue saying *I like this mod, please reconsider adding it* will prompt us to investigate and reopen it once we confirm your report." 
+        required: true
+      - label: "I believe there is nothing similar in the pack already, or the existing solution isn't good enough."
+        required: true
+      - label: "I understand this change request may not attract enough attention and thus not be implemented."
+        required: true
+      - label: "I understand this change request may be rejected due to other community members thinking it's inappropriate."
+        required: true
+      - label: "I believe this feature would make the pack better."
+        required: true
+      - label: "I'm the official maintainer or original author of this mod for minecraft 1.12.2"
