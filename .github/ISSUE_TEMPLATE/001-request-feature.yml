@@ -1,0 +1,65 @@
+name: 'Request New Feature'
+description: Request a new feature.
+labels: 
+- "Awaiting Triage"
+- "Enhancement"
+body:
+- type: markdown
+  attributes:
+    value: 'Examples of this category include: add void miners, add a naquadah processing line.
+    
+    Please note that if you want to change an existing feature, e.g. think something is too OP, you should use the Suggest a Change template instead.'
+- type: input
+  id: discord
+  attributes:
+    label: Your Discord Username
+    description: Leave empty if you don't have one, but this will make it harder to contact you if we need additional info.
+    placeholder: "Example: Fake"
+- type: input
+  id: version
+  attributes:
+    label: Your Pack Version
+    description: What version of the pack are you playing?
+    placeholder: "Example: Alpha V1"
+  validations:
+    required: true
+- type: textarea
+  id: proposal
+  attributes:
+    label: Your Proposal
+    description: What do you propose? Please describe it briefly in one or two sentence.
+    placeholder: "Example: Add a sieve multiblock."
+  validations:
+    required: true
+- type: textarea
+  id: goal
+  attributes:
+    label: Your Goal
+    description: Why is this feature needed?
+    placeholder: "Example: I hate automating sieves, i'd rather make a multiblock to do it for me"
+  validations:
+    required: true
+- type: textarea
+  id: vision
+  attributes:
+    label: Your Vision
+    description: How do you think your vision would improve the pack?
+    placeholder: "Example: A sieve multiblock will replace the ugly water wheels."
+  validations:
+    required: true
+- type: checkboxes
+  id: final
+  attributes:
+    label: Final Checklist
+    description: Please mark them so we know you are serious with your suggestion.
+    options:
+      - label: "I have searched this issue tracker and there is nothing similar already. Posting on a closed issue saying *I like this feature please reconsider adding it* will prompt us to investigate and reopen it once we confirm your report."
+        required: true
+      - label: "I believe there is nothing similar in the pack already, or the existing solution isn't good enough."
+        required: true
+      - label: "I understand this change request may not attract enough attention and thus not be implemented."
+        required: true
+      - label: "I understand this change request may be rejected due to other community members thinking it's inappropriate."
+        required: true
+      - label: "I believe this feature would make the pack better."
+        required: true
