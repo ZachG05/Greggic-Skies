@@ -1,0 +1,2 @@
+recipes.remove(<bloodmagic:altar>);
+recipes.addShaped(<bloodmagic:altar>, [[<ore:brickStone>, <gregtech:machine:1578>, <ore:brickStone>],[<ore:brickStone>, <minecraft:furnace>, <ore:brickStone>], [<enderio:item_alloy_ingot:3>, <bloodmagic:monster_soul>, <enderio:item_alloy_ingot:3>]]);

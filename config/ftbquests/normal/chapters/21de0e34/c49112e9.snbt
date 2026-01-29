@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: 0.0d,
+	dependencies: [
+		"e96117c3"
+	],
+	tasks: [{
+		uid: "55f83d29",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:zombie_seeds"
+		}]
+	}]
+}

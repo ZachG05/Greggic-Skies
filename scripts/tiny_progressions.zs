@@ -1,1 +1,0 @@
-recipes.remove(<tp:wooden_shears>);

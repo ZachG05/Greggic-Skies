@@ -1,0 +1,7 @@
+{
+	title: "Magic",
+	icon: "thaumcraft:pech_wand",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

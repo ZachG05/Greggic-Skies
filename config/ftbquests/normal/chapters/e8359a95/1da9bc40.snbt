@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"You will need to make a motor before being able to unlock the quest"
+	],
+	dependencies: [
+		"221c7258",
+		"e9982c49"
+	],
+	tasks: [{
+		uid: "7d67b502",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 471"
+		}]
+	}]
+}

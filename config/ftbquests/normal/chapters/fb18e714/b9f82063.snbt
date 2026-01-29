@@ -32,5 +32,10 @@
 				Level: 0b
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "71ef1434",
+		type: "item",
+		item: "minecraft:bucket"
 	}]
 }

@@ -1,0 +1,43 @@
+{
+	title: "You are going to need these in all voltages..",
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"221c7258"
+	],
+	tasks: [{
+		uid: "0cd8d72a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 188"
+		}]
+	},
+	{
+		uid: "8862a8a8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 158"
+		}]
+	},
+	{
+		uid: "6e32fbc8",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 143"
+		}]
+	},
+	{
+		uid: "e9982c49",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 128"
+		}]
+	},
+	{
+		uid: "d6051469",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 173"
+		}]
+	}]
+}

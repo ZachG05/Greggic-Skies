@@ -1,0 +1,20 @@
+{
+	title: "Botania",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Mix up some fertilizer and craft some floral fertilizer to get Botania flowers!",
+		"(use it like bone meal)"
+	],
+	dependencies: [
+		"1da9bc40"
+	],
+	tasks: [{
+		uid: "ec191117",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer"
+		}],
+		count: 8L
+	}]
+}

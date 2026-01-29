@@ -1,13 +1,19 @@
 {
 	title: "Crushing things manually!",
 	icon: {
-		id: "gregtech:meta_tool",
+		id: "gregtech:mortar",
 		tag: {
-			GT.ToolStats: {
-				Material: "neutronium"
+			DisallowContainerItem: 0b,
+			GT.Behaviours: {},
+			HideFlags: 2,
+			GT.Tool: {
+				MaxDurability: 256,
+				AttackDamage: 0.0f,
+				Durability: 0,
+				Material: "iron",
+				AttackSpeed: -2.4f
 			}
-		},
-		Damage: 12s
+		}
 	},
 	x: 1.5d,
 	y: 6.0d,

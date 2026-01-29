@@ -6,25 +6,31 @@
 		"Use flint and a stick to make a knife!"
 	],
 	tasks: [{
-		uid: "edb18e22",
-		type: "item",
-		items: [{
-			id: "gregtech:meta_tool",
-			tag: {
-				GT.ToolStats: {
-					Material: "neutronium"
-				}
-			},
-			Damage: 15s
-		}],
-		ignore_nbt: 1b
-	},
-	{
 		uid: "f730063c",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_ring 1 1068"
 		}],
 		count: 2L
+	},
+	{
+		uid: "81764797",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "toolKnife",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any toolKnife"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}]
 }

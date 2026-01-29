@@ -1,33 +1,23 @@
 {
-	title: "Dust Sifter",
-	icon: "exnihilocreatio:dustsift",
-	x: -1.5d,
-	y: 6.5d,
+	title: "Making Clay",
+	icon: "minecraft:clay_ball",
+	x: 1.5d,
+	y: 11.0d,
+	description: "It is balanced",
 	text: [
-		"Your first multiblock! Although the other ones will not be as easy as this, it still shows how to use it!"
+		"Dust Sifter has been removed.",
+		"Instead, put dust into a barrel full of water to get clay",
+		"A free bucket will be given once you make a steam dynamo"
 	],
 	dependencies: [
-		"1b85733c",
-		"71e6a9eb"
+		"b9f82063"
 	],
 	tasks: [{
-		uid: "2013e703",
+		uid: "ac720727",
 		type: "item",
 		items: [{
-			item: "exnihilocreatio:dustsift"
+			item: "exnihilocreatio:block_barrel1"
 		}]
-	},
-	{
-		uid: "32aebaf4",
-		type: "item",
-		items: [{
-			id: "storagedrawers:basicdrawers",
-			Count: 2b,
-			tag: {
-				material: "oak"
-			}
-		}],
-		count: 2L
 	}],
 	rewards: [{
 		uid: "a91a38f0",

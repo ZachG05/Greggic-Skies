@@ -1,0 +1,7 @@
+{
+	title: "Blood Magic",
+	icon: "bloodmagic:altar",
+	always_invisible: false,
+	group: 788595425,
+	default_quest_shape: ""
+}

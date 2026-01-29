@@ -1,0 +1,18 @@
+{
+	title: "Cheaper Steel",
+	x: 7.5d,
+	y: -8.5d,
+	text: [
+		"Add oxygen to your ebf and get cheaper steel!"
+	],
+	dependencies: [
+		"0a4da4c6"
+	],
+	tasks: [{
+		uid: "34f930cd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 324"
+		}]
+	}]
+}

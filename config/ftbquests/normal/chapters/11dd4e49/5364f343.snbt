@@ -8,10 +8,5 @@
 	],
 	dependencies: [
 		"ba372592"
-	],
-	rewards: [{
-		uid: "bcd817da",
-		type: "item",
-		item: "minecraft:bucket"
-	}]
+	]
 }
