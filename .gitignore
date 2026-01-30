@@ -1,10 +1,20 @@
-*/*
-!config/*
-!scripts/*
-!resources/*
+# Ignore everything
+*
 
+# Allow directories
+!config/
+!scripts/
+!resources/
+
+# Allow root-level files
 !.gitattributes
 !.gitignore
 !Changelog.txt
 !LICENSE
 !README.md
+!options.txt
+
+# Keep directory files too
+!config/**
+!scripts/**
+!resources/**
